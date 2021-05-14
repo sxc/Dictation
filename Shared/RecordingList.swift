@@ -30,14 +30,14 @@ struct RecordingRow: View {
             Spacer()
             if audioPlayer.isPlaying == false {
                 Button(action: {
-                    print("Strting")
+                    self.audioPlayer.startPlayback(audio: self.audioURL)
                 }) {
                     Image(systemName: "play.circle")
                         .imageScale(.large)
                 }
             } else {
                 Button(action: {
-                    print("Stop")
+                    self.audioPlayer.stopPlayback()
                 }) {
                     Image(systemName: "stop.fill")
                         .imageScale(.large)
