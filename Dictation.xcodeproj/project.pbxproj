@@ -13,6 +13,10 @@
 		342DC844264E1B4B00A9304F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC82F264E1B4800A9304F /* ContentView.swift */; };
 		342DC845264E1B4B00A9304F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342DC830264E1B4B00A9304F /* Assets.xcassets */; };
 		342DC846264E1B4B00A9304F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342DC830264E1B4B00A9304F /* Assets.xcassets */; };
+		342DC850264E1B7100A9304F /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC84F264E1B7100A9304F /* AudioRecorder.swift */; };
+		342DC851264E1B7100A9304F /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC84F264E1B7100A9304F /* AudioRecorder.swift */; };
+		342DC853264E21E900A9304F /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC852264E21E900A9304F /* RecordingList.swift */; };
+		342DC854264E21E900A9304F /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC852264E21E900A9304F /* RecordingList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		342DC83D264E1B4B00A9304F /* Dictation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342DC83F264E1B4B00A9304F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342DC840264E1B4B00A9304F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		342DC84F264E1B7100A9304F /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		342DC852264E21E900A9304F /* RecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 				342DC82E264E1B4800A9304F /* DictationApp.swift */,
 				342DC82F264E1B4800A9304F /* ContentView.swift */,
 				342DC830264E1B4B00A9304F /* Assets.xcassets */,
+				342DC84F264E1B7100A9304F /* AudioRecorder.swift */,
+				342DC852264E21E900A9304F /* RecordingList.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,8 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342DC850264E1B7100A9304F /* AudioRecorder.swift in Sources */,
 				342DC843264E1B4B00A9304F /* ContentView.swift in Sources */,
 				342DC841264E1B4B00A9304F /* DictationApp.swift in Sources */,
+				342DC853264E21E900A9304F /* RecordingList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +206,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342DC851264E1B7100A9304F /* AudioRecorder.swift in Sources */,
 				342DC844264E1B4B00A9304F /* ContentView.swift in Sources */,
 				342DC842264E1B4B00A9304F /* DictationApp.swift in Sources */,
+				342DC854264E21E900A9304F /* RecordingList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
