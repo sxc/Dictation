@@ -23,6 +23,8 @@
 		342DC85A264E281D00A9304F /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC858264E281D00A9304F /* RecordingDataModel.swift */; };
 		342DC85C264E2A6300A9304F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC85B264E2A6300A9304F /* Helper.swift */; };
 		342DC85D264E2A6300A9304F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC85B264E2A6300A9304F /* Helper.swift */; };
+		342DC85F264E4A6800A9304F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC85E264E4A6800A9304F /* AudioPlayer.swift */; };
+		342DC860264E4A6800A9304F /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC85E264E4A6800A9304F /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		342DC855264E24B000A9304F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		342DC858264E281D00A9304F /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
 		342DC85B264E2A6300A9304F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		342DC85E264E4A6800A9304F /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 				342DC855264E24B000A9304F /* Extensions.swift */,
 				342DC858264E281D00A9304F /* RecordingDataModel.swift */,
 				342DC85B264E2A6300A9304F /* Helper.swift */,
+				342DC85E264E4A6800A9304F /* AudioPlayer.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -210,6 +214,7 @@
 				342DC856264E24B000A9304F /* Extensions.swift in Sources */,
 				342DC85C264E2A6300A9304F /* Helper.swift in Sources */,
 				342DC850264E1B7100A9304F /* AudioRecorder.swift in Sources */,
+				342DC85F264E4A6800A9304F /* AudioPlayer.swift in Sources */,
 				342DC843264E1B4B00A9304F /* ContentView.swift in Sources */,
 				342DC859264E281D00A9304F /* RecordingDataModel.swift in Sources */,
 				342DC841264E1B4B00A9304F /* DictationApp.swift in Sources */,
@@ -224,6 +229,7 @@
 				342DC857264E24B000A9304F /* Extensions.swift in Sources */,
 				342DC85D264E2A6300A9304F /* Helper.swift in Sources */,
 				342DC851264E1B7100A9304F /* AudioRecorder.swift in Sources */,
+				342DC860264E4A6800A9304F /* AudioPlayer.swift in Sources */,
 				342DC844264E1B4B00A9304F /* ContentView.swift in Sources */,
 				342DC85A264E281D00A9304F /* RecordingDataModel.swift in Sources */,
 				342DC842264E1B4B00A9304F /* DictationApp.swift in Sources */,

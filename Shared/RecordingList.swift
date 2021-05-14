@@ -21,10 +21,28 @@ struct RecordingList: View {
 
 struct RecordingRow: View {
     var audioURL: URL
+    
+    @ObservedObject var audioPlayer = AudioPlayer()
+    
     var body: some View {
         HStack {
             Text("\(audioURL.lastPathComponent)")
             Spacer()
+            if audioPlayer.isPlaying == false {
+                Button(action: {
+                    print("Strting")
+                }) {
+                    Image(systemName: "play.circle")
+                        .imageScale(.large)
+                }
+            } else {
+                Button(action: {
+                    print("Stop")
+                }) {
+                    Image(systemName: "stop.fill")
+                        .imageScale(.large)
+                }
+            }
         }
     }
 }
