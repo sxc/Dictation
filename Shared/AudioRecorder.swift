@@ -47,7 +47,9 @@ class AudioRecorder: NSObject, ObservableObject {
         }
         
         let documentPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-        let audioFilename = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "dd-MM-YY_'at'_HH:mm:ss")).m4a")
+//        let audioFilename = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "dd-MM-YY_'at'_HH:mm:ss")).m4a")
+//        let audioFilename = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "YY-MM-dd HH:mm:ss"))")
+        let audioFilename = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "HH-mm-ss"))")
         
         do {
             audioRecoder = try AVAudioRecorder(url: audioFilename, settings: settings)
